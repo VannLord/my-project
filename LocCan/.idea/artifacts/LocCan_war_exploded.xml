@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LocCan:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/LocCan_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="LocCan/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LocCan" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

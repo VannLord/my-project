@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="web">
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$/javax/servlet/jstl/ 1.2" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/web" />
+    </SOURCES>
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/javax/servlet/jstl/ 1.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/web" recursive="false" type="SOURCES" />
+  </library>
+</component>
