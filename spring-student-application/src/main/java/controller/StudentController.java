@@ -61,15 +61,6 @@ public class StudentController {
         model.addAttribute("student", student);
         return "view";
     }
-    @GetMapping(value = "/find")
-    public String findForm(@RequestParam int id,Model model){
-        model.addAttribute("student",studentService.findById(id));
-        return "find";
-    }
-    @PostMapping(value = "/find")
-    public String find(@ModelAttribute("student") Student student,Model model){
-        model.addAttribute("student",studentService.findById(student.getId()));
-        return list(model);
-    }
+
 
 }
